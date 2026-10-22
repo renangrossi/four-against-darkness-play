@@ -1,0 +1,6 @@
+# never commit source books
+*.pdf
+!docs/4ad-dungeon-dive-guide.pdf
+*.epub
+*.cbz
+.DS_Store
