@@ -1,5 +1,7 @@
 # Four Against Darkness — Play Table
 
+**[Open the play table →](https://renangrossi.github.io/four-against-darkness-play/)**
+
 A browser play-aid for solo *Four Against Darkness*, plus a page-indexed play reference.
 Everything runs locally in one HTML file. No build step, no server, no account.
 
@@ -19,6 +21,16 @@ Everything runs locally in one HTML file. No build step, no server, no account.
 
 State is saved to your browser's local storage. **Use Export regularly** — local storage can be
 cleared by the browser. Import restores a save file.
+
+## Unofficial fan aid
+
+This is an unofficial, non-commercial play aid for *Four Against Darkness*, a game by
+Andrea Sfiligoi, published by **Ganesha Games**. It is not affiliated with or endorsed by
+Ganesha Games. Rule summaries here exist to speed up play at the table and are no substitute
+for the books — you need them to play. Buy them at
+**[ganeshagames.net](https://www.ganeshagames.net)**.
+
+If Ganesha Games would like anything here changed or removed, open an issue and it is done.
 
 ## The books are not here, and will not be
 
@@ -44,10 +56,8 @@ The page is responsive and works offline. Three ways to get it onto another devi
 3. **Serve it on your LAN** from the machine that has it:
    `python3 -m http.server 8000` then browse to `http://<that-machine-ip>:8000`.
 
-GitHub Pages is not available here because this repo is private on a free plan. If you ever want a
-real URL, either make the repo public — in which case strip the transcribed rules tables from
-`src/data.js` first, leaving only page pointers — or point Cloudflare Pages or Netlify at it, both
-of which serve private repos for free.
+It is also live at **<https://renangrossi.github.io/four-against-darkness-play/>** — add it to your
+home screen and it behaves like an app.
 
 ## Layout
 
